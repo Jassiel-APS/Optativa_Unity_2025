@@ -1,0 +1,72 @@
+##############################################
+# 🔹 ARCHIVOS Y CARPETAS GENERADOS POR UNITY #
+##############################################
+
+# Carpeta de compilaciones temporales (no necesaria, se regenera)
+[Ll]ibrary/
+
+# Carpeta temporal de Unity (borra y se regenera)
+[Tt]emp/
+
+# Carpeta de objetos de compilación de C#
+[Oo]bj/
+
+# Carpeta de builds exportadas (no subir builds al repo)
+[Bb]uild/
+[Bb]uilds/
+
+# Logs del editor
+[Ll]ogs/
+
+# Configuraciones de usuario (layouts, preferencias, etc.)
+UserSettings/
+
+# Capturas de memoria y profiling
+MemoryCaptures/
+
+##############################################
+# 🔹 ARCHIVOS DE DEPURACIÓN Y SOLUCIONES IDE  #
+##############################################
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+##############################################
+# 🔹 CONFIGURACIONES DEL GESTOR DE PAQUETES  #
+##############################################
+# Ignora todo el contenido de Packages menos los esenciales
+[Pp]ackages/*
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+##############################################
+# 🔹 ARCHIVOS ADICIONALES INNECESARIOS       #
+##############################################
+# Cachés del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Unity Collab o Plastic SCM
+/[Pp]lastic/
+/[Cc]ollab/
+
+# Archivos temporales del sistema operativo
+*.tmp
+*.bak
+*.swp
+
+##############################################
+# ✅ LO QUE DEBE QUEDAR EN EL REPO:
+# Assets/
+# ProjectSettings/
+# Packages/manifest.json
+# Packages/packages-lock.json
+##############################################
